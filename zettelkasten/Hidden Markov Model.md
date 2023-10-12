@@ -10,6 +10,8 @@ The [[Part-of-Speech]] [[Tag]]s give syntactic structure of the [[Sentence]].
 
 Pre-processing can be done with [[Smoothing]] and normalizing.
 
+HMMs make a Markov assumption that only the current state drives the next step (and not the previous state(s)).  This is a little too aggressive especially since [[Context]] is needed to help drive predictions/generation.  To counteract this and add more context, pairs of [[Tag]]s can be used instead of single labeling of words.
+
 ##### Parameters
 ###### Initial Distribution / Start Probabilities
 $P(y_1)$ is a $|\uptau|$ length column [[vector]].  It maps the probability of a [[Tag]] starting the sentence.

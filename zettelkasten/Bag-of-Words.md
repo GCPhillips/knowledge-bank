@@ -8,7 +8,7 @@ A vector is created for a vocabulary with the total count of the word at each in
 
 It could be thought of as an [[embedding]].
 
-The total count of word $j$ in the vector $x$ (i.e. $x_j$).
+The total count of word $j$ in the vector $x$ (i.e. $x_j$) or, 1 for present, 0 for not present.
 
 ![[Pasted image 20231007103929.png]]
 

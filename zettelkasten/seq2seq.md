@@ -30,7 +30,7 @@ The Encoder and Decoder could use [[RNN]], [[LSTM]], or [[Transformer]]s.
 ##### Encoder
 Responsible for processing the input sequence which is captured in a fixed-length context vector.
 ##### Decoder
-Takes the context vector from the encoder and generates an output sequence (one word/element at a time).  It can be [[Autoregressive]] to continue the sequence, or it can be a [[FFN]].
+Takes the context vector from the encoder and generates an output sequence (one word/element at a time).  It can be [[Autoregressive]] to continue the sequence, or it can be a [[FFNN]].
 
 ---
 # References
