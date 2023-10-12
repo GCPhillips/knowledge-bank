@@ -3,7 +3,7 @@
 Tags: #machinelearning
 
 # Perceptron
-An algorithm that is used for [[Binary Classification]] where the output is +1/-1, or True/False, or similar.
+An algorithm that is used for Binary [[Classification]] where the output is +1/-1, or True/False, or similar.
 
 The order of the training examples have an effect on the outcome of the algorithm (for example, 100 epochs without shuffling could give a different weight parameter than 100 epochs with shuffling).
 
