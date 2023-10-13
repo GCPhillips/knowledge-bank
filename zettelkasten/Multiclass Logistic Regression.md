@@ -2,7 +2,7 @@
 
 Tags: #machinelearning 
 
-# Multiclass Classification
+# Multiclass Logistic Regression
 A [[Classification]] model where multiple classes are predicted.  For example, the probability of a picture containing a dog and/or cat.  It is similar to [[Logistic Regression]] except that it is multiple classes instead of binary.
 
 #### Methods
