@@ -21,6 +21,8 @@ $$
 \rightarrow min_w \sum_{i=1}^D\:-log\:P(y^{(i)}\:|\:x^{(i)})
 $$
 Note: $P(y|x)$ is what the *model* assigns to class $y$.
+
+Logistic Regression [[Classification]] behaves similar to [[Perceptron]] (in general).
 #### Gradient
 Let $f(x)$ be a feature extractor for $x$ (it returns a [[vector]] representation of $x$).
 $$
@@ -40,8 +42,13 @@ $$
 $$
 Note: $P(y|x)$ is what the *model* assigns to class $y$.
 #### Updating w
+If $y_i = +1$:
 $$
-w = w + \alpha f(x)(1 - P(y = 1\:|\:x))
+w = w + \alpha f(x)(1 - P(y = +1\:|\:x))
+$$
+If $y_i = -1$:
+$$
+w = w - \alpha f(x)(1 - P(y = -1\:|\:x))
 $$
 
 ---

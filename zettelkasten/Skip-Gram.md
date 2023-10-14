@@ -10,9 +10,12 @@ The input word is used to predict each [[Context]] one word at a time.  This is 
 A window size of $k$ is used to see how many words to skip in both directions.  $k=1$ implies the nearest neighbors are the words to use.
 
 $$
-P(context=y\:|\:word=x) = \frac{e^{v_x * c_y}}{\sum_{y' \in y}e^{v_x * c_{y'}}}
+P(context=y\:|\:word=x) = \frac{e^{v_x^T c_y}}{\sum_{y' \in y}e^{v_x^T c_{y'}}}
 $$
 If $v_y$ is similar to $c_y$, $y$ is likely to be in $x$'s context.
+
+#### Use Cases
+Typically used to find meaning in words based on their usage in context.  The word vectors produced can be used for sentiment analysis, machine translation, etc.
 
 #### Input
 A large corpus of [[Sentence]]s (this should be as much as possible for better training).
