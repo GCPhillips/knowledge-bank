@@ -21,5 +21,6 @@ Det -> "The"
 N -> "cat" 
 V -> "chased"
 ```
+
 ---
 # References

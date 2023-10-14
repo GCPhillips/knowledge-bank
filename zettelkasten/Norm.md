@@ -4,7 +4,7 @@ Tags: #linearalgebra
 
 # Norms
 
-Used to get the length or magnitude of a [[vector]].  
+Used to get the length or magnitude of a [[vector]] or [[matrix]].  
 
 
 ---
