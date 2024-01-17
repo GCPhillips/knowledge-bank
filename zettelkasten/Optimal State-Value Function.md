@@ -12,6 +12,13 @@ v_*(s)\ \dot{=}\ \max_{\pi}v_{\pi}(s)
 $$
 There is always at least one policy that is greater than or equal to any other policy.
 
+
+In terms of $q_*$, the value can be calculated by:
+
+$$
+v_*(s) = \max_{a \in A(s)} q_*(s,a),\ \ \text{for all } s \in S
+$$
+
 ##### Bellman
 A recursive function that uses the [[Bellman Equation]].
 Take an optimal action and act optimally forever after that.

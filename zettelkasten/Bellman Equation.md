@@ -12,6 +12,10 @@ $$
 \forall\ s \in S
 $$
 
+#### Action Values
+$$
+q_{\pi}(s,a)\ \dot{=}\sum_{s'}\sum_r p(s', r|s, a)[r + \gamma \sum_{a'} \pi(a'|s') q_{\pi}(s', a'|s, a)]
+$$
 
 ---
 # References
