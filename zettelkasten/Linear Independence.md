@@ -3,7 +3,9 @@
 Tags: #linearalgebra 
 
 # Linear Independence
-A set of [[vector]]s $v_1,\dots,v_k$ are linearly independent if there is no way to describe one of them as a linear combination of the others.
+(see [[Linear Dependence]])
+
+A set of [[vector]]s $v_1,\dots,v_k$ are linearly independent if there is no way to describe one of them as a [[Linear Combination]] of the others.
 
 In other words:
 If $\alpha_1v_1 + \alpha_2v_2 + \dots + \alpha_kv_k = 0$, then $\alpha_i = 0, \forall i$
