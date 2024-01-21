@@ -6,3 +6,4 @@ This is just a backup of my [Obsidian](https://obsidian.md/) notes from several 
 - Machine Learning
 - Reinforcement Learning
 - Natural Language Processing
+- Online Learning & Optimization
