@@ -13,7 +13,8 @@ $$
 \end{flalign}
 $$
 
-It is similar to an [[Affine Set]] except that $\theta$ is constrained to be within $[0,1]$
+It is similar to an [[Affine Set]] except that $\theta$ is constrained to be within $[0,1]$.  
+Adjusting $\theta$ between 0 and 1 allows to "slide" between the two points $x_1, x_2$.  If $\theta$ is close to 0, the result of the function is close to $x_2$.  If $\theta$ is close to 1, the result of the function is close to $x_1$.
 
 ---
 # References
