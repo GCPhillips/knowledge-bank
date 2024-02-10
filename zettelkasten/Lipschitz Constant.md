@@ -13,6 +13,27 @@ where $L$ is the constant.  In other words, it bounds the rate at which the grad
 
 If a function has Lipschitz continuous gradients, then it is [[Beta-Smooth Convex]].  The constant, $L$, is sometimes marked as $\beta$ (related to [[Beta-Smooth Convex]]).
 
+#### Bounds:
+$$
+|f(x) - f(y)| \leq L||x - y||
+$$
+If $f$ is convex:
+$$
+f(y) \geq f(x) + \nabla f(x)^T(y - x)
+$$
+Equivalently:
+$$
+|f(x) - f(y) \leq ||\nabla f(x)||_* \cdot ||x - y||
+$$
+where $||\cdot||_*$ is a [[Dual Norm]].
+
+
+$f$ is L-Lipschitz w.r.t. an arbitrary [[Norm]] if $||\nabla f(x)||_* \leq L$:
+$$
+|f(x) - f(y) - \nabla f(y)^T(x - y) \leq \frac{\beta}{2}||x - y||^2
+$$
+where $||x - y||^2$ is an arbitrary norm.
+
 #### Example
 Given a quadratic function:
 $$
