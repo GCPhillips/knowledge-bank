@@ -25,6 +25,8 @@ With Frank Wolfe, at no point does $x_{t+1}$ move outside of the set, so there i
 
 Frank Wolfe replaces projection (which could be a complicated operation) with linear minimization (which also could be complicated).  If linear optimization might be easy compared to projection, then Frank Wolfe could be a better option.
 
+For a given objective function $f(x) = g(x) + h(x)$, where $g$ is a smooth function, and $h$ is a non-smooth function (e.g. [[Lasso Regression]]) only the gradient of $g(x)$ is calculated.  The non-smooth part of the function is handled indirectly through the constraint set during the linear minimization step.
+
 #### Theorem:
 Let $f, \chi$ be convex, with f [[Beta-Smooth Convex]] in any arbitrary [[Norm]]:
 $$

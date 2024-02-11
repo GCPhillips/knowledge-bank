@@ -24,7 +24,9 @@ The prox term is just the [[2-Norm]], which has spherical symmetry (the [[Unit B
 
 An issue with the [[Subgradient Method]] is that the steepest direction for descent might be away (almost perpendicular) from the true minimizing $x$.  Using the linear approximation helps move towards the true minimizing $x$.
 
-Choosing a different [[Proximity Term]] to a different [[Norm]] gives a different algorithm that may be better.
+Choosing a different [[Proximity Term]] to a different [[Norm]] gives a different algorithm that may be better.  
+
+**Changing the prox term changes the direction of descent.**
 
 #### Idea:
 $$
