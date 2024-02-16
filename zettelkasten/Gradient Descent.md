@@ -13,5 +13,10 @@ $$
 $$
 where $\beta_t$ is where we are after $t$ iterations, $\eta$ is the step size, and $\nabla f(...)$ is the gradient of function $f$.
 
+#### Gradient Computations for $\epsilon$ accuracy:
+
+$O((n \times \frac{\beta}{\alpha}) \log(\frac{1}{\epsilon}))$
+
+
 ---
 # References
