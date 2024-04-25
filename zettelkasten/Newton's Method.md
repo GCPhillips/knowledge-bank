@@ -3,7 +3,12 @@
 Tags: #optimization #machinelearning 
 
 # Newton's Method
-A method for optimizing a linear function.
+A method for optimizing a linear function.  It is [[Gradient Descent]] with the optimal [[Affine Transformation]].
+Can be thought of as:
+$$
+\text{Newton} = \text{GD} + \text{Transformation}
+$$
+at each step, where transformation=[[Affine Transformation]].
 
 Much faster than [[Gradient Descent]] and [[Accelerated Gradient Descent]].
 
@@ -27,10 +32,12 @@ where $(\nabla^2 f(x))_{i, j} = \frac{\partial^2f}{\partial x_i \partial x_j}$
 #### Algorithm Versions:
 There are two variants of the algorithm
 ###### Damped:
-Phase 1: used when not very close to the optimal solution.
+Phase 1: used when not very close to the optimal solution.  [[Back Tracking Line Search]] is used to find the best step size.
+
 $x_{t+1} = x_t - \eta(\nabla^2 f(x_t))^{-1} \nabla f(x_t)$
 ###### Undamped:
 Phase 2: used when very close to the optimal solution.  This is where we get to the region of quadratic convergence.
+
 $x_{t+1} = x_t - (\nabla^2 f(x_t))^{-1} \nabla f(x_t)$
 (i.e., no $\eta$ for step size)
 
